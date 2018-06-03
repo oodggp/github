@@ -10,7 +10,7 @@
 .banner{
 	width:1600px;
 	height:987px;
-	background:url(images/helloworld.png) no-repeat;
+	background:url(images/helloworld.png);
 }
 .b-rgba{
 	background:rgba(0,0,0,0.6);
