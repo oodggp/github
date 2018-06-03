@@ -10,7 +10,7 @@
 .banner{
 	width:1600px;
 	height:987px;
-	background:url("images/helloworld.png");
+	background:url(../images/helloworld.png);
 }
 .b-rgba{
 	background:rgba(0,0,0,0.6);
@@ -235,8 +235,9 @@ button{
 }
 /*white box end*/
 .bt{
-	background:url("images/smartcar.png");
+	background:url(../images/smartcar.png);
 	height:808px;
+	width:1600px;
 }
 .btr{
 	height:808px;
@@ -481,12 +482,49 @@ button{
 	margin:0 auto;
 	margin-top:63px;
 }
+
 .top-left{
+	float:left;
+	margin-right:30px;
+	position:relative;
+}
+.hs{
+	width:470px;
+	height:340px;
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+	background:rgba(0,0,0,0.6);
+}
+
+.top-left:hover .hs{
+	display:block;
+}
+.hs h3{
+	color:white;
+	padding-top:109px;
+	margin-bottom:21px;
+}
+.hs p{
+	color:#959595;
+	margin-bottom:25px;
+}
+.hs ul{
+	margin-left:129px;
+	marigin-top:39px;
+}
+.hs ul li{
+	list-style-type:none;
 	float:left;
 	margin-right:30px;
 }
 .top-right{
 	float:left;
+	position:relative;
+}
+.top-right:hover .hs{
+	display:block;
 }
 .crew-bottom{
 	width:972px;
@@ -497,9 +535,17 @@ button{
 .bottom-left{
 	float:left;
 	margin-right:30px;
+	position:relative;
+}
+.bottom-left:hover .hs{
+	display:block;
 }
 .bottom-right{
 	float:left;
+	position:relative;
+}
+.bottom-right:hover .hs{
+	display:block;
 }
 /*crew end*/
 .fc{
@@ -512,9 +558,6 @@ button{
 	width:470px;
 	height:562px;
 	border:1px solid #e7e7e7;
-	/* position:absolute;
-	top:70px;
-	left:315px; */
 	float:left;
 	margin-top:70px;
 	margin-left:315px;
@@ -579,7 +622,6 @@ button{
 }
 .address{
 	margin-bottom:39px;
-	/* width:264px; */
 	height:81px;
 	position:relative;
 }
@@ -635,7 +677,6 @@ button{
 	margin-top:88px;
 }
 .lm li{
-	/* width:130px; */
 	height:54px;
 	font-size:16px;
 	list-style-type:none;
