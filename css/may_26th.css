@@ -10,7 +10,7 @@
 .banner{
 	width:1600px;
 	height:987px;
-	background:url(images/helloworld.png);
+	background:url("images/helloworld.png");
 }
 .b-rgba{
 	background:rgba(0,0,0,0.6);
@@ -235,7 +235,7 @@ button{
 }
 /*white box end*/
 .bt{
-	background:url(images/smartcar.png);
+	background:url("images/smartcar.png");
 	height:808px;
 }
 .btr{
